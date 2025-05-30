@@ -1,0 +1,36 @@
+<div class="d-flex justify-content-center mb-5">
+    <button id="button-init-config" class="btn btn-outline-danger me-3 post-auth">
+        Initial Configuration</button>
+</div>
+
+<div class="bg-success bg-opacity-25">
+    <div class="p-3">
+        Start/Stop Button Monitoring:
+        <button id="button-monitor-button-status" class="btn btn-outline-primary ms-3">Start</button>
+    </div>
+    <br>
+    <div class="p-3">
+        Button1:
+        <button disabled id="status-button1" class="btn btn-primary mx-3">
+            Not enabled</button>
+        Button2:
+        <button disabled id="status-button2" class="btn btn-primary mx-3">
+            Not enabled</button>
+    </div>
+</div>
+<div class="mt-3 bg-warning bg-opacity-25">
+    <div class="p-3">
+        Control LED1:
+        <button id="button-led-control" class="btn btn-outline-primary ms-3">Turn ON</button>
+    </div>
+</div>
+<div class="mt-3 bg-warning bg-opacity-50">
+    <div class="fs-3">
+        An object detected at distance <span id="distance">N/A</span> cm
+    </div>
+</div>
+
+<div class="mt-3 bg-warning bg-opacity-25">
+    <div id="image-timestamp"></div>
+    <img id="image" height=300>
+</div>

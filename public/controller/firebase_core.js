@@ -5,14 +5,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/fireba
 
 // Your web app's Firebase configuration: copy from Firebase Console
 const firebaseConfig = {
-    apiKey: "AIzaSyD2Yop_hGQPHwkSru0dBi36rnBy3_oDX1A",
-    authDomain: "nakella-umaheshwaram-cms-b19e5.firebaseapp.com",
-    projectId: "nakella-umaheshwaram-cms-b19e5",
-    storageBucket: "nakella-umaheshwaram-cms-b19e5.firebasestorage.app",
-    messagingSenderId: "82145278507",
-    appId: "1:82145278507:web:2fd801b2b70dd3a345486e",
-    measurementId: "G-ELGFN8GRC3"
-  };
+  apiKey: "AIzaSyAFRStZju0IQH_6I2skBrQBD3U1a2vjkmQ",
+  authDomain: "nakella-cmsc5313.firebaseapp.com",
+  projectId: "nakella-cmsc5313",
+  storageBucket: "nakella-cmsc5313.firebasestorage.app",
+  messagingSenderId: "477059821638",
+  appId: "1:477059821638:web:cda516517df7eb3e471a47",
+  measurementId: "G-043GC63V4X"
+};
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
